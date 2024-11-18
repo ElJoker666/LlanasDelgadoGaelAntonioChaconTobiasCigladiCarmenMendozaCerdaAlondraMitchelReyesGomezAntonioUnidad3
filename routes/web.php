@@ -6,6 +6,7 @@ use App\Http\Controllers\ComentariosController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ReservasController;
+use App\Http\Controllers\ReservaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -78,6 +79,8 @@ Route::post('/reservar', [ReservasController::class, 'create'])->name('reservar'
 Route::get('/reservas', [ReservasController::class, 'mostrarReservas'])->name('reservas');
 Route::get('/reservas/{id}/edit', [ReservasController::class, 'edit'])->name('reserva.edit');
 Route::put('/reservas/{id}', [ReservasController::class, 'update'])->name('reserva.update');
+Route::get('/reservas/{id}/factura', [ReservaController::class, 'generarFactura'])->name('reserva.factura');
+
 
 Route::post('/rooms', [ComentariosController::class, 'create'])->name('comentario');
 Route::get('/habitacion_estandar', [ComentariosController::class, 'mostrarComentarios'])->name('comentarios');

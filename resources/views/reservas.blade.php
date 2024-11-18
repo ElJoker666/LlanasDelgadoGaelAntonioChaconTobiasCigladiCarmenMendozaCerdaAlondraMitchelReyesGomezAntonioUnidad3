@@ -1,7 +1,7 @@
 @extends('layouts.user')
- 
+
 @section('title', 'Reservas')
- 
+
 @section('contents')
 
 <div class="container mx-auto px-4 py-8">
@@ -31,17 +31,16 @@
                     <p class="text-lg text-gray-600 mb-2">Fecha de llegada: {{ $reserva->fecha_llegada }}</p>
                     <p class="text-lg text-gray-600 mb-2">Fecha de salida: {{ $reserva->fecha_salida }}</p>
                     <p class="text-lg text-gray-600 mb-2">Precio: {{ $reserva->precio }}</p>
+                    
                     <a href="#" class="block mx-auto mt-4 w-40 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg text-xl font-semibold">Pagar</a>
-
-                    <a href="{{route('reserva.edit', $reserva->id)}}" class="block mx-auto mt-4 w-40 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg text-xl font-semibold">Editar Reservación</a>
-
+                    <a href="{{ route('reserva.edit', $reserva->id) }}" class="block mx-auto mt-4 w-40 bg-blue-600 hover:bg-blue-700 text-white text-center py-3 rounded-lg text-xl font-semibold">Editar Reservación</a>
+                    <!-- Botón para descargar PDF -->
+                    <a href="{{ route('reserva.factura', $reserva->id) }}" target="_blank" class="block mx-auto mt-4 w-40 bg-green-600 hover:bg-green-700 text-white text-center py-3 rounded-lg text-xl font-semibold">Descargar PDF</a>
                 </div>
-                
-            </div>            
+            </div>
             @endforeach
         @endif
     </div>
 </div>
-
 
 @endsection
