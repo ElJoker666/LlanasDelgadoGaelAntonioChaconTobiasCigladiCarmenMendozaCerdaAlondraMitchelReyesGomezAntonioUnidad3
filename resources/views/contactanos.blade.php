@@ -62,6 +62,22 @@
         <h2 class="text-xl font-bold mb-2">¿Necesitas ayuda con una reserva?</h2>
         <p>Si necesitas ayuda para hacer o modificar una reserva, por favor, visita nuestra página de reservas o ponte en contacto con nuestro equipo de reservas al +52 8445291303.</p>
     </div>
+
+    <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+        <h2 class="text-xl font-bold mb-2">Nuestra ubicación:</h2>
+        <!-- Mapa de Google -->
+        <div class="w-full h-64">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.822086896498!2d-101.00743102420316!3d25.42323417846507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86882070756b1015%3A0x4fa3894810a8c10e!2sSaltillo%2C%20Coahuila%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sco!4v1234567890123!5m2!1ses-419!2sco" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
 </main>
 
 @endsection
