@@ -2,6 +2,9 @@
 <html lang="en">
  
 <head>
+    <head>
+        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LenGH4qAAAAAH_zh3M5DMuJWRZvnwu2dXm8FHXS"></script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -90,6 +93,14 @@
                 </div>
             </div>
         </div>
+        <script>
+            function onClick(e) {
+              e.preventDefault();
+              grecaptcha.enterprise.ready(async () => {
+                const token = await grecaptcha.enterprise.execute('6LenGH4qAAAAAH_zh3M5DMuJWRZvnwu2dXm8FHXS', {action: 'LOGIN'});
+              });
+            }
+          </script>
     </section>
     
 </body>

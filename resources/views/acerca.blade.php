@@ -29,6 +29,14 @@
                 <li>Gimnasio totalmente equipado para mantenerte en forma</li>
                 <li>Piscina al aire libre con vistas impresionantes</li>
                 <li>Servicio de conserjería las 24 horas para atender todas tus necesidades</li>
+                <li>Wi-Fi de alta velocidad gratuito en todas las áreas</li>
+                <li>Bar en la azotea con vistas panorámicas</li>
+                <li>Salones para eventos y conferencias equipados con tecnología moderna</li>
+                <li>Servicio de transporte al aeropuerto o a destinos turísticos locales</li>
+                <li>Mini bar y servicio de habitaciones las 24 horas</li>
+                <li>Alquiler de bicicletas o scooters para explorar la zona</li>
+                <li>Tienda de souvenirs y productos locales dentro del hotel</li>
+                <li>Zona de cine al aire libre o proyecciones en la piscina</li>
             </ul>
             <p>En nuestro hotel, nos esforzamos por superar tus expectativas en cada aspecto. ¡Esperamos darte la bienvenida pronto!</p>
         </div>
