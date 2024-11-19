@@ -35,6 +35,17 @@
             <h3 class="text-xl font-semibold mb-2"><strong>¿Cuál es la política de cancelación?</strong></h3>
             <p>Nuestra política de cancelación varía según el tipo de habitación y la tarifa seleccionada. Por favor, consulta los detalles al momento de realizar tu reserva o contáctanos para más información.</p>
         </div>
+        <div class="bg-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2"><strong>¿Ofrecen habitaciones accesibles para personas con discapacidad?</strong></h3>
+            <p>Sí, contamos con habitaciones adaptadas para personas con discapacidad. Por favor, indícalo al momento de realizar tu reserva para que podamos garantizar la disponibilidad.</p>
+        </div>
+        <div class="bg-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2"><strong>¿Qué debo hacer si olvidé algo en el hotel?</strong></h3>
+            <p>Por favor, contáctanos lo antes posible. Haremos todo lo posible por ayudarte a recuperar tus pertenencias.</p>
+        </div><div class="bg-gray-200 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-2"><strong>¿Tienen opciones de comida para dietas especiales?</strong></h3>
+            <p>Sí, nuestro restaurante ofrece opciones para vegetarianos, veganos y personas con alergias alimentarias. Por favor, informa tus necesidades al personal al hacer tu pedido.</p>
+        </div>
     </div>
 </main>
 
